@@ -4,7 +4,7 @@ import { getGithubUserEvents } from "./lib/github_api";
 import consts from "./lib/consts";
 import env from "./lib/env";
 import { dateYYYYMMDD, sum, secondsToHours } from "./lib/helpers";
-import { IWakatimeDurations } from "wakatime_durations";
+import { IWakatimeDurations } from "./types/wakatime_durations";
 import sendMail from "./lib/send_mail";
 
 async function main() {
