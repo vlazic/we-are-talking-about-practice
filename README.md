@@ -6,6 +6,7 @@ Yes, we are talking about practice, man!
 
 I've decided to code at least 3 hours per day while publishing at least one commit to Github.
 At 22h if I dont achieve this goals I will receive email like this:
+
 ![practice](hurry-up.png)
 
 Do you want to try it yourself?
@@ -13,9 +14,9 @@ Follow instructions:
 
 ## Instructions
 
-1. Start using [WakaTime](http://google.com), so you can track how much time you spend coding
-2. Clone this repo `git clone https://github.com/vlazic/we-are-talking-about-practice` on your server
-3. Create `.env` file `cp .env.example .env` and change sample data:
+1. Start using [WakaTime](https://wakatime.com), so you can track how much time you spend coding
+2. Clone this repo: `git clone https://github.com/vlazic/we-are-talking-about-practice` on your server
+3. Create `.env` file: `cp .env.example .env` and change sample data:
 
 ```ini
 # your email
@@ -44,12 +45,12 @@ SMTP_FROM_MAIL=kody.stehr19@ethereal.email
 ```
 
 4. Install dependencies: `npm install`
-5. Build it `npm run build`
+5. Build it: `npm run build`
 6. Create cron job: `0 22 * * * node PATH_TO_REPO/dist/index.js`
 
 ## Alternate Instructions
 
-Practice by creating your own similar script which suits you better. This one is bloated because I wanted to try Node with Typescript :)
+Practice by creating your own similar script which suits you better. This one is bloated because I wanted to try out Node with Typescript :)
 
 ![practice](practice.gif)
 
