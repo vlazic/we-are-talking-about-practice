@@ -6,6 +6,7 @@ Yes, we are talking about practice, man!
 
 I've decided to code at least 3 hours per day while publishing at least one commit to Github.
 At 22h if I dont achieve this goals I will receive email like this:
+
 ![practice](hurry-up.png)
 
 Do you want to try it yourself?
