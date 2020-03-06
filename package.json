@@ -10,7 +10,7 @@
   },
   "scripts": {
     "start": "npm run serve",
-    "build": "npm run build-ts && npm run lint && npm run copy-static-assets",
+    "build": "npm run build-ts && npm run lint",
     "serve": "node dist/index.js",
     "watch-node": "NODE_ENV=development nodemon --ignore $npm_package_devConfig_json_server_routes_file --ignore $npm_package_devConfig_json_server_db_file dist/index.js",
     "watch": "npm run json-server-wrapper:generate-db && concurrently -k -p \"[{name}]\" -n \"JSON server,TypeScript,Node\" -c \"yellow.bold,cyan.bold,green.bold\" \"npm run json-server-wrapper\" \"npm run watch-ts\" \"npm run watch-node\"",

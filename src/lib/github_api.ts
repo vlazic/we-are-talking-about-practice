@@ -1,5 +1,5 @@
 import axios from "axios";
-import { IGithubUserEvent } from "github_user_event";
+import { IGithubUserEvent } from "../types/github_user_event";
 import apiUrls from "./api_endpoints";
 
 export async function getGithubUserEvents(user: string) {

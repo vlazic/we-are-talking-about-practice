@@ -13,7 +13,7 @@ const env = Object.freeze({
   smtpPort: parseInt(process.env.SMTP_PORT, 10),
   smtpUser: process.env.SMTP_USER,
   smtpPass: process.env.SMTP_PASS,
-  smtpFromEmail: process.env.SMTP_FROM_EMAIL,
+  smtpFromEmail: process.env.SMTP_FROM_MAIL,
   toEmail: process.env.TO_EMAIL,
   jsonServerDbFile:
     process.env.npm_package_devConfig_json_server_db_file ||
