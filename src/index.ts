@@ -33,7 +33,7 @@ async function main() {
     )} hours ago! You need to commit at least once today!\n`;
   }
   if (hoursToday < env.codingHoursWarning) {
-    message += `Your total number coding hours today is ${Math.floor(
+    message += `Your total number of coding hours today is ${Math.floor(
       hoursToday
     )} hours! Your daily goal is ${env.codingHoursWarning}.`;
   }
