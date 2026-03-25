@@ -3,7 +3,7 @@
 ## Project
 Node.js project using npm. Lock file: `package-lock.json`. Default branch: `master`.
 
-## Security patching (last patched: 2026-03-04)
+## Security patching (last patched: 2026-03-25)
 - `axios` is a **direct** dependency — update in `package.json`
 - `qs`, `minimatch`, `ajv` are **transitive** (via express/body-parser from json-server, eslint, glob) — resolved by `npm audit fix`
 - Note: `wakatime-client` has a peer dep on `axios@^0.19.0` — `npm audit fix --force` was needed to bypass this
